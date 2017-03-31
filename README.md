@@ -9,7 +9,9 @@
 Insert the commands as above example into the dockerfile.
 
 -	Run the docker command to build the image
-$ docker build –t image_name .
+
+
+                                     $ docker build –t image_name .
 
 Here ‘-t’ is used to attach a tag (name ) to the image.
 
