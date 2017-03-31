@@ -1,12 +1,16 @@
 # Dockerfiles
 
 	Procedure to build an image out of a Dockerfile is as follows:
+
 -	Create new directory $ mkdir directory_name
 -	Change into that directory $ cd directory_name
 -	Create a Dockerfile $ vi Dockerfile 
+
 Insert the commands as above example into the dockerfile.
+
 -	Run the docker command to build the image
 $ docker build –t image_name .
+
 Here ‘-t’ is used to attach a tag (name ) to the image.
 
 	Run the container out of already built docker image
