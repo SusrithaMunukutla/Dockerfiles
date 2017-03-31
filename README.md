@@ -47,4 +47,14 @@ $ docker ps –a
 	To remove an image $ docker rmi –f image_id
 
 ‘-f’ is to remove forcefully.
+======================================================================
 
+Push image to dockerhub 
+
+docker login --username=<user username> --email=<user email address>
+
+For example= docker login --username=chuangg --email=gc.genechaung@gmail.com
+
+
+
+                     docker push chuangg/gene_commited_image
