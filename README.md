@@ -10,6 +10,8 @@ $ docker build –t image_name .
 Here ‘-t’ is used to attach a tag (name ) to the image.
 
 	Run the container out of already built docker image
+
+
 $ docker run –it –p 8100:8100 –v /home/user/user_directory:/workspace --name container_name bash
 The above command runs a container out of the image also allows us to get into the shell of container using ‘bash’.
 The ‘-p’ tag is to allocate port to the container (8100 in case of Ionic)
